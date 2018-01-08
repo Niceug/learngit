@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IBrick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LBrick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SBrick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OBrick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TBrick.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IBrick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LBrick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SBrick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OBrick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TBrick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\My.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Tetris.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TetrisDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\龙BMP16.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\els16bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\闪电BMp111.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\登录界面16bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\俄罗斯方块登陆01bmp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tetris.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
